@@ -439,8 +439,23 @@
 import Vue from "vue";
 
 export default Vue.extend({
-  /*name: "Blog",*/
-  data: () => ({
-    isOpen: false,
-})
+/*name: "Blog",*/
+    data: () => ({
+        isOpen: false,
+    }),
+    async asyncData({ app }) {
+        const res = await app.$storyapi.get('cdn/stories', {
+            starts_with: 'articles/',
+            resolve_relations: 'author',
+        })
+
+        // Let's convert content.date from a String to a Date
+        const articles = res.data.stories.map((story: any) => {
+            story.content.date = new Date(story.content.date)
+            return story
+        })
+
+        return { articles }
+    },
+
 });
