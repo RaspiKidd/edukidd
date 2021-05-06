@@ -325,7 +325,7 @@
         </div>
       </div>
       <!-- Testimonials -->
-      <section class="bg-gray-200">
+      <!--<section class="bg-gray-200">
         <div class="max-w-7xl mx-auto md:grid md:grid-cols-1 md:px-6 lg:px-8">
           <h2 class="text-3xl font-extrabold tracking-tight sm:text-4xl text-red-600">
             Testimonials
@@ -386,9 +386,9 @@
             
               <footer class="mt-8">
                 <div class="flex items-start">
-                  <!--<div class="flex-shrink-0 inline-flex rounded-full border-2 border-red-500">
+                  <div class="flex-shrink-0 inline-flex rounded-full border-2 border-red-500">
                     <img class="h-12 w-12 rounded-full" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixqx=kMf6WlMMZH&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
-                  </div> -->
+                  </div>
                 
                   <div class="ml-4">
                     <div class="text-base font-medium text-black">
@@ -402,9 +402,9 @@
                 </div>
               </footer>
             </blockquote>
-          </div>
+          </div> 
         
-          <!-- <div class="py-12 px-4 border-t-2 border-red-600 sm:px-6 md:py-16 md:pr-0 md:pl-10 md:border-t-0 md:border-l lg:pl-16">
+           <div class="py-12 px-4 border-t-2 border-red-600 sm:px-6 md:py-16 md:pr-0 md:pl-10 md:border-t-0 md:border-l lg:pl-16">
             <blockquote class="mt-6 md:flex-grow md:flex md:flex-col">
               <div class="relative text-lg font-medium text-black md:flex-grow">
                 <svg class="absolute top-0 left-0 transform -translate-x-3 -translate-y-2 h-8 w-8 text-red-300" fill="currentColor" viewBox="0 0 32 32">
@@ -434,9 +434,9 @@
                 </div>
               </footer>
             </blockquote>
-          </div> -->
+          </div> 
         </div>
-      </section>
+      </section> -->
   </main>
   <!-- Footer -->
   <footer class="bg-white">
@@ -533,12 +533,12 @@
 </template>
 
 <script lang="ts">
-import Vue from "vue";
+  import Vue from "vue";
 
-export default Vue.extend({
-  /*name: "HireMe",*/
-  data: () => ({
-    isOpen: false,
-})
-});
+  export default Vue.extend({
+    /*name: "HireMe",*/
+    data: () => ({
+      isOpen: false,
+    })
+  });
 </script>

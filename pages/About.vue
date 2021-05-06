@@ -43,7 +43,7 @@
                         <div class="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
                       
                           <NuxtLink to="/RaspberryPi" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
-                            <img class="flex-shrink-0 h-6 w-6" src="/static/images/RaspberryPi.png" alt="Image of a Raspberry Pi">
+                            <img class="flex-shrink-0 h-6 w-6" src="@/static/images/RaspberryPi.png" alt="Image of a Raspberry Pi">
                             <div class="ml-4">
                               <p class="text-base font-medium text-gray-900">
                                 Raspberry Pi
@@ -55,7 +55,7 @@
                           </NuxtLink>
 
                           <NuxtLink to="/microbit" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
-                            <img class="flex-shrink-0 h-6 w-6" src="/static/images/microbit.png" alt="Image of a micro:bit">
+                            <img class="flex-shrink-0 h-6 w-6" src="@/static/images/microbit.png" alt="Image of a micro:bit">
                             <div class="ml-4">
                               <p class="text-base font-medium text-gray-900">
                                 micro:bit
