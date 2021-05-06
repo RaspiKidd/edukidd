@@ -165,10 +165,10 @@
             <div class="relative max-w-7xl mx-auto">
                 <div class="text-center">
                     <h1 class="text-5xl tracking-tight font-extrabold text-gray-900 sm:text-6xl md:text-7xl lg:text-6xl xl:text-7xl text-red-700">
-                        Raspberry Pi Tutorials
+                        Scratch Tutorials
                     </h1>
                     <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4 font-extrabold" style="color:#76B82A;">
-                        Raspberry Pi tutorials grouped by programming language
+                        Raspberry Pi tutorials created with the Scratch programming language
                     </p>
                 </div>
                 
@@ -180,7 +180,7 @@
                         
                         <div class="flex-1 bg-white p-6 flex flex-col justify-between">
                             <div class="flex-1">
-                                <NuxtLink to="/Scratch" class="block mt-2">
+                                <NuxtLink to="/MakeCode" class="block mt-2">
                                     <h2 class="text-xl font-semibold" style="color:#76B82A;">
                                         Scratch Tutorials
                                     </h2>
@@ -201,7 +201,7 @@
                         <div class="flex-1 bg-white p-6 flex flex-col justify-between">
                             <div class="flex-1">
                                 
-                                <NuxtLink to="/RpiEduBlocks" class="block mt-2">
+                                <NuxtLink to="/EduBlocks" class="block mt-2">
                                     <h2 class="text-xl font-semibold" style="color:#76B82A;">
                                         EduBlocks Tutorials
                                     </h2>
@@ -221,7 +221,7 @@
                         
                         <div class="flex-1 bg-white p-6 flex flex-col justify-between">
                             <div class="flex-1">
-                                <NuxtLink to="/Python" class="block mt-2">
+                                <NuxtLink to="/microPython" class="block mt-2">
                                     <h2 class="text-xl font-semibold" style="color:#76B82A;">
                                         Python Tutorials
                                     </h2>
