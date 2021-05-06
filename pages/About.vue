@@ -157,6 +157,51 @@
         </div>
       </div>
     </div>
+
+    <!-- main content -->
+    <main class="lg:relative">
+      <div class="mx-auto max-w-7xl w-full pt-16 pb-20 text-center lg:py-30 lg:text-center">
+        <div class="px-4 lg:w-1/2 sm:px-8 xl:pr-16">
+          <h1 class="text-5xl tracking-tight font-extrabold text-gray-900 sm:text-6xl md:text-7xl lg:text-6xl xl:text-7xl">
+            <span class="block text-red-700 xl:inline"> About </span>
+          </h1>
+
+          <h2 class="text-3xl tracking-tight font-extrabold sm:text-4xl md:text-5xl lg:text-4xl xl:text-5xl" style = "color:#76B82A;">
+            <span class="block xl:inline xl:text-5xl"> 
+              Imagine being able to program a computer that you can pick up and put in your pocket? 
+            </span>
+          </h2>
+          
+          <p class="p-10 text-lg text-gray-900">
+            This is exactly what you will learn to do in a EduKidd workshop. Through the use of Raspberry Pi's and BBC micro:bits 
+            EduKidd teaches you how to program computers in a fun and easy way by using physical objects like LEDs, buttons and robots.
+          </p>
+
+          <h2 class="text-3xl tracking-tight font-extrabold sm:text-4xl md:text-5xl lg:text-4xl xl:text-5xl text-red-700">
+            <span class="block xl:inline xl:text-5xl"> 
+              Other projects we are involved in
+            </span>
+          </h2>
+
+          <div class="grid grid-cols-2 grid-rows-2 gap-2 place-items-auto h-30 mt-10 sm:ml-3">
+            <div class="rounded-md shadow sm:mt-0 sm:ml-3">
+              <a href="https://micromag.cc/" style ="background-color:#76B82A;" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-base rounded-md text-black md:py-4 md:text-lg md:px-4">
+                micro:mag
+              </a>
+            </div>
+            <div class="rounded-md shadow sm:mt-0 sm:ml-3">
+              <a href ="https://dundeebots.uk/" style ="background-color:#76B82A;" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-base rounded-md text-black md:py-4 md:text-lg md:px-4">
+                DundeeBots
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="relative w-full h-64 sm:h-72 md:h-96 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 lg:h-full">
+        <img class="absolute inset-0 w-full h-full object-cover" src="/images/Robots.png" alt="Cardboard robots">
+      </div>
+    </main>
+
      <!--footer -->
     <footer class="bg-white">
       <div class="px-4 py-12 mx-auto overflow-hidden max-w-7xl sm:px-6 lg:px-8">
