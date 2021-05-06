@@ -165,10 +165,10 @@
             <div class="relative max-w-7xl mx-auto">
                 <div class="text-center">
                     <h1 class="text-5xl tracking-tight font-extrabold text-gray-900 sm:text-6xl md:text-7xl lg:text-6xl xl:text-7xl text-red-700">
-                        micro:bit Tutorials
+                        MakeCode Tutorials
                     </h1>
                     <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4 font-extrabold" style="color:#76B82A;">
-                        micro:bit tutorials grouped by programming language
+                        micro:bit tutorials created with the MakeCode editor
                     </p>
                 </div>
                 
